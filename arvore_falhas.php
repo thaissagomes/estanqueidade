@@ -31,7 +31,10 @@
 
     <!-- Etapa 3 -->
     <div class="card p-4 text-center d-none" id="etapa3">
-      <h4>Realizar teste com a peça padrão.</h4>
+      <h4>Realizar teste com a peça padrão.
+
+      inserir valores da peça padrao aqui .........
+      </h4>
       <h4 class="mt-4">A peça padrão também reprovou?</h4>
       <button class="btn btn-horse btn-lg mx-2" onclick="mostrarEtapa('etapa4')">Sim</button>
       <button class="btn btn-dark btn-lg mx-2" onclick="finalizar()">Não</button>

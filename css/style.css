@@ -45,11 +45,11 @@ h4, p {
 
 /* Botão azul do index */
 .btn-dark {
-  background-color: #00b4ff;
+  background-color: #080808;
   border: none;
 }
 .btn-dark:hover {
-  background-color: #008ecc;
+  background-color: #070707;
 }
 
 /* Cards — espaçamento e flex */

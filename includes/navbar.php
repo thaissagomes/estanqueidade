@@ -19,7 +19,6 @@
           <li class="nav-item"><a class="nav-link" href="sobre.php">Sobre a Máquina</a></li>
           <li class="nav-item"><a class="nav-link" href="arvore_falhas.php">Árvore de falhas</a></li>
           <li class="nav-item"><a class="nav-link" href="historico.php">Histórico</a></li>
-
         </ul>
       </div>
     </div>
