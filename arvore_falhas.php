@@ -70,6 +70,7 @@
       <p class="mt-3">Após a troca, realizar novo teste com a peça padrão.</p>
       <p class="text-info mt-3">Se ainda reprovar, contatar o responsável técnico.</p>
       <button class="btn btn-dark btn-lg mt-3" onclick="reiniciar()">Reiniciar Diagnóstico</button>
+
     </div>
   </div>
 

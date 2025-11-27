@@ -120,7 +120,7 @@
         <li>Verificar condições das borrachas de vedação e engates rápidos.</li>
         <li>Limpar os canais de ar e sensores de pressão.</li>
         <li>Manter o alinhamento e fechamento correto do cabeçote.</li>
-        <li>Registrar ocorrências no <a href="historico.html">portal de histórico</a>.</li>
+        <li>Registrar ocorrências no <a href="historico.php">portal de histórico</a>.</li>
       </ul>
       <p class="text-muted mt-3">
         ⚙️ Página atualizável conforme novos parâmetros técnicos forem adicionados.

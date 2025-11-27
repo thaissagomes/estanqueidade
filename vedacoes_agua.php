@@ -35,6 +35,8 @@
       </table>
     </div>
 
+
+    
     <div class="text-center mt-4">
       <img src="img/vedacao_agua.jpg" alt="Pontos de vedação do circuito de água - HR16" class="img-fluid rounded shadow" style="max-height:400px;">
       <small class="d-block text-muted mt-2">Borrachas do Circuito de Água</small>

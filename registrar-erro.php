@@ -42,7 +42,7 @@ if (isset($_GET['sucesso'])) {
 
 
 <div class="container my-5">
-  <h2 class="text-center mb-4">Registro de Erros da Máquina</h2>
+  <h2 class="text-center mb-4">Registro de Trocas da Máquina</h2>
   <p class="text-center text-muted mb-5">Selecione o tipo de falha observada ou registre manualmente outro tipo de erro.</p>
 
   <div class="row g-4 justify-content-center align-items-stretch">

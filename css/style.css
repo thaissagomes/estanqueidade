@@ -1,6 +1,6 @@
 /* Fundo geral do portal */
 body {
-  background-color: #f6f7fb;
+  background-color: #aaadb9;
   color: #000;
   font-family: 'Inter', sans-serif;
 }
@@ -10,7 +10,6 @@ h1 {
   font-weight: 600;
   color: #000;
 }
-
 h4, p {
   color: #000;
 }
@@ -19,15 +18,13 @@ h4, p {
 .card {
   background-color: #fff;
   border-radius: 15px;
-  min-height: 230px;
   border: none;
+  height: auto;
 }
-
 .card-hover {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 15px;
 }
-
 .card-hover:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
@@ -45,14 +42,14 @@ h4, p {
 
 /* Botão azul do index */
 .btn-dark {
-  background-color: #080808;
+  background-color: #090a0a;
   border: none;
 }
 .btn-dark:hover {
-  background-color: #070707;
+  background-color: #060606;
 }
 
-/* Cards — espaçamento e flex */
+/* Ajustes flex dos cards */
 .card .card-body {
   display: flex;
   flex-direction: column;
@@ -68,7 +65,7 @@ header {
   background-color: #4a148c !important;
 }
 
-/* Abas e tabelas (caso existam em outras páginas) */
+/* Abas */
 .nav-tabs .nav-link.active {
   background-color: #4a148c !important;
   color: white !important;
@@ -81,4 +78,56 @@ header {
 table {
   border-radius: 10px;
   overflow: hidden;
+}
+
+/* ESTILO DO GRÁFICO  */
+
+.grafico-container {
+  background: rgba(10, 15, 36, 0.75);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* gráfico responsivo */
+.grafico {
+  width: 100%;
+  height: 420px;
+}
+
+/*responsivo aqui*/
+
+@media (max-width: 992px) { /* tablet */
+  .grafico { height: 350px; }
+}
+
+@media (max-width: 768px) { /* tablet menor */
+  .grafico { height: 320px; }
+}
+
+@media (max-width: 576px) { /* celular */
+  .grafico { height: 280px; }
+}
+
+/* legenda */
+.grafico-legenda {
+  text-align: center;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.grafico-legenda .verde {
+  color: #44ff44;
+}
+.grafico-legenda .vermelho {
+  color: #ff4444;
+}
+
+/* container responsivo interno */
+@media (max-width: 992px) {
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
